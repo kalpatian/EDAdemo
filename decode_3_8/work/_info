@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CoDWork/SCPUSIM
+vdecode_3_8
+!s110 1555135395
+!i10b 1
+!s100 l;K52Web2ab<4@z:CWN7O2
+I`c8Q20[hbYRnPIk[k?GX70
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/EDAdemo/decode_3_8
+w1555135117
+8D:/EDAdemo/decode_3_8/decode_3_8.v
+FD:/EDAdemo/decode_3_8/decode_3_8.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1555135395.000000
+!s107 D:/EDAdemo/decode_3_8/decode_3_8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/EDAdemo/decode_3_8/decode_3_8.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vdecode_3_8_tb
+!s110 1555137368
+!i10b 1
+!s100 MP@OLCZ4zcd=gR>>K>JYD3
+I0P>^M_HKPLoofW?F@3k@30
+R0
+R1
+w1555135115
+8D:/EDAdemo/decode_3_8/decode_3_8_tb.v
+FD:/EDAdemo/decode_3_8/decode_3_8_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1555137368.000000
+!s107 D:/EDAdemo/decode_3_8/decode_3_8_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/EDAdemo/decode_3_8/decode_3_8_tb.v|
+!i113 1
+R3
+R4

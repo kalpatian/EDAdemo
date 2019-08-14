@@ -1,0 +1,133 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L7 is add~33
+A1L7 = CARRY(cin);
+
+
+--A1L8 is add~34
+A1L8 = b[0] & (a[0] & A1L7 & VCC # !a[0] & !A1L7) # !b[0] & (a[0] & !A1L7 # !a[0] & (A1L7 # GND));
+
+--A1L9 is add~35
+A1L9 = CARRY(b[0] & !a[0] & !A1L7 # !b[0] & (!A1L7 # !a[0]));
+
+
+--A1L10 is add~36
+A1L10 = (b[1] $ a[1] $ !A1L9) # GND;
+
+--A1L11 is add~37
+A1L11 = CARRY(b[1] & (a[1] # !A1L9) # !b[1] & a[1] & !A1L9);
+
+
+--A1L12 is add~38
+A1L12 = b[2] & (a[2] & A1L11 & VCC # !a[2] & !A1L11) # !b[2] & (a[2] & !A1L11 # !a[2] & (A1L11 # GND));
+
+--A1L13 is add~39
+A1L13 = CARRY(b[2] & !a[2] & !A1L11 # !b[2] & (!A1L11 # !a[2]));
+
+
+--A1L14 is add~40
+A1L14 = (b[3] $ a[3] $ !A1L13) # GND;
+
+--A1L15 is add~41
+A1L15 = CARRY(b[3] & (a[3] # !A1L13) # !b[3] & a[3] & !A1L13);
+
+
+--A1L16 is add~42
+A1L16 = A1L15;
+
+
+--b[0] is b[0]
+--operation mode is input
+
+b[0] = INPUT();
+
+
+--a[0] is a[0]
+--operation mode is input
+
+a[0] = INPUT();
+
+
+--cin is cin
+--operation mode is input
+
+cin = INPUT();
+
+
+--b[1] is b[1]
+--operation mode is input
+
+b[1] = INPUT();
+
+
+--a[1] is a[1]
+--operation mode is input
+
+a[1] = INPUT();
+
+
+--b[2] is b[2]
+--operation mode is input
+
+b[2] = INPUT();
+
+
+--a[2] is a[2]
+--operation mode is input
+
+a[2] = INPUT();
+
+
+--b[3] is b[3]
+--operation mode is input
+
+b[3] = INPUT();
+
+
+--a[3] is a[3]
+--operation mode is input
+
+a[3] = INPUT();
+
+
+--s[0] is s[0]
+--operation mode is output
+
+s[0] = OUTPUT(A1L8);
+
+
+--s[1] is s[1]
+--operation mode is output
+
+s[1] = OUTPUT(A1L10);
+
+
+--s[2] is s[2]
+--operation mode is output
+
+s[2] = OUTPUT(A1L12);
+
+
+--s[3] is s[3]
+--operation mode is output
+
+s[3] = OUTPUT(A1L14);
+
+
+--cout is cout
+--operation mode is output
+
+cout = OUTPUT(A1L16);
+
+

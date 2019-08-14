@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "COUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "COUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RCO",
+					"strict" : false
+				},
+				{
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LOAD",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "CLR",
+					"strict" : false
+				},
+				{
+					"name" : "ENP",
+					"strict" : false
+				},
+				{
+					"name" : "ENT",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

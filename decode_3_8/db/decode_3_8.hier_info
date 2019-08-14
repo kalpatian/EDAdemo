@@ -1,0 +1,14 @@
+|decode_3_8
+a[0] => Equal0.IN31
+a[1] => Equal0.IN30
+a[2] => Equal0.IN29
+y[0] << y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+y[1] << <GND>
+y[2] << <GND>
+y[3] << <GND>
+y[4] << <GND>
+y[5] << <GND>
+y[6] << <GND>
+y[7] << <GND>
+
+

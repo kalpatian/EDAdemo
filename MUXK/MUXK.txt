@@ -1,0 +1,14 @@
+module MUXK(a,s,y);
+	input a[2:0];
+	input s[1:0];
+	output y;
+	reg y;
+	integer x;
+	if(s[0]==0)
+		x=a[1];
+	else if(s[0]==1)
+		x=a[2];
+	if(s[1]==0;
+		y=a[0];
+	else	y=x;
+endmodule

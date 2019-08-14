@@ -1,0 +1,48 @@
+module triBUS4(clk,IN3,IN2,IN1,IN0,writedata,ENA,DOUT);
+	input clk;
+	input [6:0] IN3,IN2,IN1,IN0;  //mem地址
+	input [7:0] writedata;  //要写入的值
+	input [2:0] ENA;
+	output [7:0] DOUT;
+//	output [7:0] WIN3,WIN2,WIN1,WIN0; //写数据值
+	reg [7:0] DOUT,WIN3,WIN2,WIN1,WIN0;
+	
+always @ (ENA,IN0)
+	if (ENA[1:0]==2'b00)
+	begin
+		if(!ENA[2]) //ENA[2]为1时，写
+			DOUT=WIN0;
+	end
+	else	DOUT=4'hz;
+	 
+always @ (ENA,IN1)
+	if (ENA[1:0]==2'b01)
+	begin
+		if(!ENA[2]) //ENA[2]为1时，写
+			DOUT=WIN1;
+	end
+	else	DOUT=4'hz;
+
+always @ (ENA,IN2)
+	if (ENA[1:0]==2'b10)
+	begin
+		if(!ENA[2]) //ENA[2]为1时，写
+			DOUT=WIN2;
+	end
+	else	DOUT=4'hz;
+	
+always @ (ENA,IN3)
+	if (ENA[1:0]==2'b11)
+	begin
+		if(!ENA[2]) //ENA[2]为1时，写
+			DOUT=WIN3;
+	end
+	else	DOUT=4'hz;
+	
+	
+	RAM78 ram1(.Q(WIN0),.D(writedata),.A(IN0),.CLK(clk),.WREN(ENA[2]));
+	RAM78 ram2(.Q(WIN1),.D(writedata),.A(IN1),.CLK(clk),.WREN(ENA[2]));
+	RAM78 ram3(.Q(WIN2),.D(writedata),.A(IN2),.CLK(clk),.WREN(ENA[2]));
+	RAM78 ram4(.Q(WIN3),.D(writedata),.A(IN3),.CLK(clk),.WREN(ENA[2]));
+
+endmodule

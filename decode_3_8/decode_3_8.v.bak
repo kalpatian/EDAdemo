@@ -1,0 +1,19 @@
+module decode_3_8 (
+	input wire[2:0] a,
+	output reg[7:0] y
+);
+
+	always@(*) 
+	begin
+		case(a)
+			3'b000:Y=8'b00000001;
+			3'b001:Y=8'b00000010;
+			3'b010:Y=8'b00000011;
+			3'b011:Y=8'b00000100;
+			3'b100:Y=8'b00000101;
+			3'b101:Y=8'b00000110;
+			3'b110:Y=8'b00000111;
+			3'b111:Y=8'b00000000;
+		endcase
+	end
+endmodule

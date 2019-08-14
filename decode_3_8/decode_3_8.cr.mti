@@ -1,0 +1,13 @@
+D:/EDAdemo/decode_3_8/decode_3_8.v {0 {vlog -work work -vopt {D:\EDAdemo\decode_3_8\decode_3_8.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "D:/EDAdemo/decode_3_8/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}} D:/EDAdemo/decode_3_8/decode_3_8_tb.v {0 {vlog -work work -vopt {D:\EDAdemo\decode_3_8\decode_3_8_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "D:/EDAdemo/decode_3_8/work". (Format: 4)
+
+** Error: Verilog Compiler exiting
+
+} {3.0 4.0 5.0 6.0} {}}

@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+dD:\EDAdemo\CNT10_Changed
+vLS160
+VZARBYUfKX1SnAdGSCo0GB0
+r1
+31
+Iid1h0MEjBlNo<9cFPho=I1
+Z0 dD:\EDAdemo\LS160
+w1556205050
+8D:/EDAdemo/LS160/LS160.v
+FD:/EDAdemo/LS160/LS160.v
+L0 1
+Z1 OL;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@l@s160
+!s100 El`RG`aW<b;TVnYOI6C:=3
+!s108 1556205290.862000
+!s107 D:/EDAdemo/LS160/LS160.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/EDAdemo/LS160/LS160.v|
+!s85 0
+!i10b 1
+vLS160_tb
+VfCHljSf8TCMOjXV<>S_<10
+r1
+!s85 0
+31
+IeA_jeaAVXQ86Ac>2g5[AR1
+Z3 dD:\EDAdemo\LS160
+w1556205463
+8D:/EDAdemo/LS160/LS160_tb.v
+FD:/EDAdemo/LS160/LS160_tb.v
+L0 2
+R1
+!s90 -reportprogress|300|-work|work|-vopt|D:/EDAdemo/LS160/LS160_tb.v|
+R2
+n@l@s160_tb
+!i10b 1
+!s100 @NAR3a]d^DAE3Q`n2m[1^2
+!s108 1556205476.623000
+!s107 D:/EDAdemo/LS160/LS160_tb.v|

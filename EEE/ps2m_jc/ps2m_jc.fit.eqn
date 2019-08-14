@@ -1,0 +1,336 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--C1_q_a[0] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[0] at M4K_X11_Y11
+--RAM Block Operation Mode: ROM
+--Port A Depth: 256, Port A Width: 7
+--Port A Logical Depth: 256, Port A Logical Width: 7
+--Port A Input: Registered, Port A Output: Un-registered
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[0] = C1_q_a[0]_PORT_A_data_out[0];
+
+--C1_q_a[6] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[6] at M4K_X11_Y11
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[6] = C1_q_a[0]_PORT_A_data_out[6];
+
+--C1_q_a[5] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[5] at M4K_X11_Y11
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[5] = C1_q_a[0]_PORT_A_data_out[5];
+
+--C1_q_a[4] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[4] at M4K_X11_Y11
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[4] = C1_q_a[0]_PORT_A_data_out[4];
+
+--C1_q_a[3] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[3] at M4K_X11_Y11
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[3] = C1_q_a[0]_PORT_A_data_out[3];
+
+--C1_q_a[2] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[2] at M4K_X11_Y11
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[2] = C1_q_a[0]_PORT_A_data_out[2];
+
+--C1_q_a[1] is altsyncram:reduce_or_rtl_0|altsyncram_fgl:auto_generated|q_a[1] at M4K_X11_Y11
+C1_q_a[0]_PORT_A_address = BUS(m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7]);
+C1_q_a[0]_PORT_A_address_reg = DFFE(C1_q_a[0]_PORT_A_address, C1_q_a[0]_clock_0, , , );
+C1_q_a[0]_clock_0 = GLOBAL(A1L3);
+C1_q_a[0]_PORT_A_data_out = MEMORY(, , C1_q_a[0]_PORT_A_address_reg, , , , , , C1_q_a[0]_clock_0, , , , , );
+C1_q_a[1] = C1_q_a[0]_PORT_A_data_out[1];
+
+
+--s[1] is s[1] at LCFF_X10_Y10_N17
+s[1] = DFFEAS(UNCONNECTED_DATAIN, GLOBAL(A1L3),  ,  ,  , m[1],  ,  , VCC);
+
+
+--s[7] is s[7] at LCFF_X10_Y11_N21
+s[7] = DFFEAS(A1L51, GLOBAL(A1L3),  ,  ,  ,  ,  ,  ,  );
+
+
+--A1L35 is rtl~45 at LCCOMB_X10_Y10_N16
+A1L35 = set[7] & s[7] & (s[1] $ !set[1]) # !set[7] & !s[7] & (s[1] $ !set[1]);
+
+
+--s[0] is s[0] at LCFF_X10_Y10_N11
+s[0] = DFFEAS(UNCONNECTED_DATAIN, GLOBAL(A1L3),  ,  ,  , m[0],  ,  , VCC);
+
+
+--s[5] is s[5] at LCFF_X10_Y11_N7
+s[5] = DFFEAS(A1L48, GLOBAL(A1L3),  ,  ,  ,  ,  ,  ,  );
+
+
+--A1L36 is rtl~46 at LCCOMB_X10_Y10_N10
+A1L36 = set[5] & s[5] & (set[0] $ !s[0]) # !set[5] & !s[5] & (set[0] $ !s[0]);
+
+
+--s[3] is s[3] at LCFF_X10_Y11_N15
+s[3] = DFFEAS(UNCONNECTED_DATAIN, GLOBAL(A1L3),  ,  ,  , m[3],  ,  , VCC);
+
+
+--s[4] is s[4] at LCFF_X10_Y11_N5
+s[4] = DFFEAS(A1L46, GLOBAL(A1L3),  ,  ,  ,  ,  ,  ,  );
+
+
+--A1L37 is rtl~47 at LCCOMB_X10_Y11_N14
+A1L37 = set[4] & s[4] & (s[3] $ !set[3]) # !set[4] & !s[4] & (s[3] $ !set[3]);
+
+
+--s[6] is s[6] at LCFF_X10_Y11_N17
+s[6] = DFFEAS(UNCONNECTED_DATAIN, GLOBAL(A1L3),  ,  ,  , m[6],  ,  , VCC);
+
+
+--s[2] is s[2] at LCFF_X10_Y11_N23
+s[2] = DFFEAS(UNCONNECTED_DATAIN, GLOBAL(A1L3),  ,  ,  , m[2],  ,  , VCC);
+
+
+--A1L38 is rtl~48 at LCCOMB_X10_Y11_N16
+A1L38 = set[6] & s[6] & (set[2] $ !s[2]) # !set[6] & !s[6] & (set[2] $ !s[2]);
+
+
+--A1L39 is rtl~49 at LCCOMB_X10_Y10_N22
+A1L39 = A1L35 & A1L37 & A1L38 & A1L36;
+
+
+--clk1 is clk1 at LCFF_X9_Y6_N5
+clk1 = DFFEAS(A1L2, clkin,  ,  ,  ,  ,  ,  ,  );
+
+
+--m[0] is m[0] at LCFF_X10_Y10_N9
+m[0] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[1],  ,  , VCC);
+
+
+--m[1] is m[1] at LCFF_X10_Y10_N21
+m[1] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[2],  ,  , VCC);
+
+
+--m[2] is m[2] at LCFF_X10_Y11_N31
+m[2] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[3],  ,  , VCC);
+
+
+--m[3] is m[3] at LCFF_X10_Y11_N19
+m[3] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[4],  ,  , VCC);
+
+
+--m[4] is m[4] at LCFF_X10_Y11_N27
+m[4] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[5],  ,  , VCC);
+
+
+--m[5] is m[5] at LCFF_X10_Y11_N1
+m[5] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[6],  ,  , VCC);
+
+
+--m[6] is m[6] at LCFF_X10_Y11_N29
+m[6] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[7],  ,  , VCC);
+
+
+--m[7] is m[7] at LCFF_X10_Y11_N11
+m[7] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , s[8],  ,  , VCC);
+
+
+--A1L2 is clk1~6 at LCCOMB_X9_Y6_N4
+A1L2 = kbclk # !rst;
+
+
+--s[8] is s[8] at LCFF_X10_Y11_N25
+s[8] = DFFEAS(UNCONNECTED_DATAIN, GLOBAL(A1L3),  ,  ,  , m[8],  ,  , VCC);
+
+
+--m[8] is m[8] at LCFF_X10_Y11_N9
+m[8] = DFFEAS(A1L32, !GLOBAL(A1L3),  ,  ,  ,  ,  ,  ,  );
+
+
+--s[9] is s[9] at LCFF_X10_Y11_N3
+s[9] = DFFEAS(A1L54, GLOBAL(A1L3),  ,  ,  ,  ,  ,  ,  );
+
+
+--m[9] is m[9] at LCFF_X10_Y11_N13
+m[9] = DFFEAS(UNCONNECTED_DATAIN, !GLOBAL(A1L3),  ,  ,  , kbdata,  ,  , VCC);
+
+
+--set[7] is set[7] at LCCOMB_X10_Y11_N10
+set[7] = flag & m[7] # !flag & (set[7]);
+
+
+--set[1] is set[1] at LCCOMB_X10_Y10_N20
+set[1] = flag & (m[1]) # !flag & set[1];
+
+
+--set[5] is set[5] at LCCOMB_X10_Y11_N0
+set[5] = flag & m[5] # !flag & (set[5]);
+
+
+--set[0] is set[0] at LCCOMB_X10_Y10_N8
+set[0] = flag & (m[0]) # !flag & set[0];
+
+
+--set[4] is set[4] at LCCOMB_X10_Y11_N26
+set[4] = flag & m[4] # !flag & (set[4]);
+
+
+--set[3] is set[3] at LCCOMB_X10_Y11_N18
+set[3] = flag & m[3] # !flag & (set[3]);
+
+
+--set[2] is set[2] at LCCOMB_X10_Y11_N30
+set[2] = flag & m[2] # !flag & (set[2]);
+
+
+--set[6] is set[6] at LCCOMB_X10_Y11_N28
+set[6] = flag & m[6] # !flag & (set[6]);
+
+
+--flag is flag at PIN_41
+--operation mode is input
+
+flag = INPUT();
+
+
+--kbclk is kbclk at PIN_121
+--operation mode is input
+
+kbclk = INPUT();
+
+
+--rst is rst at PIN_40
+--operation mode is input
+
+rst = INPUT();
+
+
+--clkin is clkin at PIN_96
+--operation mode is input
+
+clkin = INPUT();
+
+
+--kbdata is kbdata at PIN_120
+--operation mode is input
+
+kbdata = INPUT();
+
+
+--dout[0] is dout[0] at PIN_144
+--operation mode is output
+
+dout[0] = OUTPUT(C1_q_a[0]);
+
+
+--dout[1] is dout[1] at PIN_142
+--operation mode is output
+
+dout[1] = OUTPUT(C1_q_a[1]);
+
+
+--dout[2] is dout[2] at PIN_3
+--operation mode is output
+
+dout[2] = OUTPUT(C1_q_a[2]);
+
+
+--dout[3] is dout[3] at PIN_7
+--operation mode is output
+
+dout[3] = OUTPUT(C1_q_a[3]);
+
+
+--dout[4] is dout[4] at PIN_9
+--operation mode is output
+
+dout[4] = OUTPUT(C1_q_a[4]);
+
+
+--dout[5] is dout[5] at PIN_4
+--operation mode is output
+
+dout[5] = OUTPUT(C1_q_a[5]);
+
+
+--dout[6] is dout[6] at PIN_8
+--operation mode is output
+
+dout[6] = OUTPUT(C1_q_a[6]);
+
+
+--dout[7] is dout[7] at PIN_143
+--operation mode is output
+
+dout[7] = OUTPUT(GND);
+
+
+--jgout[0] is jgout[0] at PIN_60
+--operation mode is output
+
+jgout[0] = OUTPUT(!A1L39);
+
+
+--jgout[1] is jgout[1] at PIN_59
+--operation mode is output
+
+jgout[1] = OUTPUT(VCC);
+
+
+--jgout[2] is jgout[2] at PIN_58
+--operation mode is output
+
+jgout[2] = OUTPUT(GND);
+
+
+--jgout[3] is jgout[3] at PIN_57
+--operation mode is output
+
+jgout[3] = OUTPUT(VCC);
+
+
+
+
+
+--A1L3 is clk1~clkctrl at CLKCTRL_G3
+A1L3 = cycloneii_clkctrl(.INCLK[0] = clk1) WITH (clock_type = "Global Clock");
+
+
+--A1L46 is s[4]~feeder at LCCOMB_X10_Y11_N4
+A1L46 = m[4];
+
+
+--A1L48 is s[5]~feeder at LCCOMB_X10_Y11_N6
+A1L48 = m[5];
+
+
+--A1L51 is s[7]~feeder at LCCOMB_X10_Y11_N20
+A1L51 = m[7];
+
+
+--A1L32 is m[8]~feeder at LCCOMB_X10_Y11_N8
+A1L32 = s[9];
+
+
+--A1L54 is s[9]~feeder at LCCOMB_X10_Y11_N2
+A1L54 = m[9];
+
+

@@ -1,0 +1,156 @@
+-- Copyright (C) 1991-2005 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+--A1L22 is reduce_or~77 at LCCOMB_X1_Y11_N0
+A1L22 = a[1] & (a[3]) # !a[1] & (a[2] $ (a[0] & !a[3]));
+
+
+--A1L15 is data~77 at LCCOMB_X1_Y11_N4
+A1L15 = s2 # A1L22 # !s1;
+
+
+--A1L23 is reduce_or~78 at LCCOMB_X1_Y11_N10
+A1L23 = a[2] & (a[3] # a[1] $ a[0]) # !a[2] & a[1] & (a[3]);
+
+
+--A1L16 is data~78 at LCCOMB_X1_Y11_N16
+A1L16 = s2 # A1L23 # !s1;
+
+
+--A1L24 is reduce_or~79 at LCCOMB_X1_Y11_N26
+A1L24 = a[2] & (a[3]) # !a[2] & a[1] & (a[3] # !a[0]);
+
+
+--A1L17 is data~79 at LCCOMB_X1_Y11_N24
+A1L17 = s2 # A1L24 # !s1;
+
+
+--A1L25 is reduce_or~80 at LCCOMB_X1_Y11_N22
+A1L25 = a[1] & (a[3] # a[2] & a[0]) # !a[1] & (a[2] $ (a[0] & !a[3]));
+
+
+--A1L18 is data~80 at LCCOMB_X1_Y11_N28
+A1L18 = s2 # A1L25 # !s1;
+
+
+--A1L26 is reduce_or~81 at LCCOMB_X1_Y11_N6
+A1L26 = a[0] # a[1] & (a[3]) # !a[1] & a[2];
+
+
+--A1L19 is data~81 at LCCOMB_X1_Y11_N20
+A1L19 = s2 # A1L26 # !s1;
+
+
+--A1L27 is reduce_or~82 at LCCOMB_X1_Y11_N30
+A1L27 = a[2] & (a[3] # a[1] & a[0]) # !a[2] & (a[1] # a[0] & !a[3]);
+
+
+--A1L20 is data~82 at LCCOMB_X1_Y11_N18
+A1L20 = s2 # A1L27 # !s1;
+
+
+--A1L28 is reduce_or~83 at LCCOMB_X1_Y11_N2
+A1L28 = a[2] & !a[3] & (!a[0] # !a[1]) # !a[2] & (a[1] $ (a[3]));
+
+
+--A1L21 is data~83 at LCCOMB_X1_Y11_N12
+A1L21 = s1 & !s2 & A1L28;
+
+
+--a[0] is a[0] at PIN_55
+--operation mode is input
+
+a[0] = INPUT();
+
+
+--a[1] is a[1] at PIN_53
+--operation mode is input
+
+a[1] = INPUT();
+
+
+--a[2] is a[2] at PIN_52
+--operation mode is input
+
+a[2] = INPUT();
+
+
+--a[3] is a[3] at PIN_51
+--operation mode is input
+
+a[3] = INPUT();
+
+
+--s2 is s2 at PIN_58
+--operation mode is input
+
+s2 = INPUT();
+
+
+--s1 is s1 at PIN_57
+--operation mode is input
+
+s1 = INPUT();
+
+
+--data[0] is data[0] at PIN_144
+--operation mode is output
+
+data[0] = OUTPUT(!A1L15);
+
+
+--data[1] is data[1] at PIN_142
+--operation mode is output
+
+data[1] = OUTPUT(!A1L16);
+
+
+--data[2] is data[2] at PIN_3
+--operation mode is output
+
+data[2] = OUTPUT(!A1L17);
+
+
+--data[3] is data[3] at PIN_7
+--operation mode is output
+
+data[3] = OUTPUT(!A1L18);
+
+
+--data[4] is data[4] at PIN_9
+--operation mode is output
+
+data[4] = OUTPUT(!A1L19);
+
+
+--data[5] is data[5] at PIN_4
+--operation mode is output
+
+data[5] = OUTPUT(!A1L20);
+
+
+--data[6] is data[6] at PIN_8
+--operation mode is output
+
+data[6] = OUTPUT(A1L21);
+
+
+--data[7] is data[7] at PIN_143
+--operation mode is output
+
+data[7] = OUTPUT(GND);
+
+
+
+
+

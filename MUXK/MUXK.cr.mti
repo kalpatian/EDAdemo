@@ -1,0 +1,15 @@
+D:/EDAdemo/MUXK/MUXK.v {1 {vlog -work work -vopt D:/EDAdemo/MUXK/MUXK.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MUXK
+
+Top level modules:
+	MUXK
+
+} {} {}} D:/EDAdemo/MUXK/MUXK_tb.v {1 {vlog -work work -vopt D:/EDAdemo/MUXK/MUXK_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MUXK_tb
+
+Top level modules:
+	MUXK_tb
+
+} {} {}}

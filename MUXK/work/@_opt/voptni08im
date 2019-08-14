@@ -1,0 +1,58 @@
+m255
+K3
+13
+cModel Technology
+Z0 dH:\modelsim-win64-10.1c-se\examples
+T_opt
+Vj]N]FU3l7nNA0fzckG9:d2
+04 7 4 work MUXK_tb fast 0
+=1-c85b76e85222-5cb1b2f6-6d-344
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+T_opt1
+Vhg>i[HAmM^db`AS84FQ3H3
+04 4 4 work MUXK fast 0
+=1-c85b76e85222-5cb1ad10-336-1098
+R1
+n@_opt1
+R2
+Z3 dH:\modelsim-win64-10.1c-se\examples
+vMUXK
+I?AHMKdg8m4e:W1`9UbDiB2
+VMfB>4R1Z[PoCDXEmzI`P43
+Z4 dD:\EDAdemo\MUXK
+w1555149426
+8D:/EDAdemo/MUXK/MUXK.v
+FD:/EDAdemo/MUXK/MUXK.v
+L0 1
+Z5 OL;L;10.1c;51
+r1
+31
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@m@u@x@k
+!s90 -reportprogress|300|-work|work|-vopt|D:/EDAdemo/MUXK/MUXK.v|
+!s100 bfG;k3K7D1K1UkgNmEa0=2
+!s108 1555149544.210000
+!s107 D:/EDAdemo/MUXK/MUXK.v|
+!i10b 1
+!s85 0
+vMUXK_tb
+IDDLWOWgjC;[DjTEod^i4>3
+V[FUUEiEizmMoT^cP[zPhV2
+R4
+w1555148900
+8D:/EDAdemo/MUXK/MUXK_tb.v
+FD:/EDAdemo/MUXK/MUXK_tb.v
+L0 2
+R5
+r1
+31
+R6
+n@m@u@x@k_tb
+!s100 IABl`0oHggE`5blV15A9G3
+!s90 -reportprogress|300|-work|work|-vopt|D:/EDAdemo/MUXK/MUXK_tb.v|
+!i10b 1
+!s85 0
+!s108 1555149544.337000
+!s107 D:/EDAdemo/MUXK/MUXK_tb.v|

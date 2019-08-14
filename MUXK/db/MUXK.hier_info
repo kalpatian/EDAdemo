@@ -1,0 +1,9 @@
+|MUXK
+a[0] => y.DATAB
+a[1] => x.DATAB
+a[2] => x.DATAA
+s[0] => x.OUTPUTSELECT
+s[1] => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,12 @@
+module MUXK(a,s,y);
+	input wire [2:0]a;
+	input wire [1:0]s;
+	output y;
+	wire y;
+	integer x;
+	always @(*) begin
+	assign x=s[0]?a[2]:a[1];
+	assign y=s[1]? x:a[0];
+	end
+	
+endmodule
